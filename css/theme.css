@@ -56,7 +56,7 @@ img {
 }
 
 section {
-	margin: 10rem auto;
+	margin: 5rem auto;
 }
 
 button {
@@ -110,7 +110,6 @@ hr {
 }
 
 .section-title {
-	margin-bottom: 70px;
 	text-transform: uppercase;
 }
 
@@ -194,6 +193,29 @@ hr {
 
 .team .team-icon {
 	max-width: 16px;
+}
+
+/* Experience */
+
+.cv-position-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cv-li {
+	list-style: none;
+}
+
+.cv-position {
+	font-weight: 800;
+}
+
+.cv-time {
+	font-style: italic;
+}
+
+.cv-description {
+	margin-left: 25px;
 }
 
 /* Portfolio */
